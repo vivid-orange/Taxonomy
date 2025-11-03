@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class WT9x141_5 : SingletonAmericanBase<WT9x141_5>, ICutTeeParallelFlange
     {

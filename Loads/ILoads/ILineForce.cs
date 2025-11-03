@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Loads
+namespace VividOrange.Taxonomy.Loads
 {
     public interface ILineForce : ILineForce2d
     {

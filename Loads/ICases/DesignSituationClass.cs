@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MagmaWorks.Taxonomy.Loads
+namespace VividOrange.Taxonomy.Loads
 {
     [Flags]
     public enum DesignSituationClass

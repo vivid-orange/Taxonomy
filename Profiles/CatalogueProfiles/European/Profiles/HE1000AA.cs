@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class HE1000AA : SingletonEuropeanBase<HE1000AA>, IIParallelFlange
     {

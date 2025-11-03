@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Taxonomy.Standards.Eurocode;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class MinimumReinforcementSpacing : IMinimumReinforcementSpacing
     {

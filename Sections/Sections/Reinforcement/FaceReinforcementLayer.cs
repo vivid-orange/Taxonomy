@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Profiles;
-using MagmaWorks.Taxonomy.Sections.Exceptions;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Profiles;
+using VividOrange.Taxonomy.Sections.Exceptions;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class FaceReinforcementLayer : IFaceReinforcementLayer
     {

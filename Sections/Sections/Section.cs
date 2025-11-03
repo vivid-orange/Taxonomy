@@ -1,7 +1,7 @@
-﻿using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Profiles;
+﻿using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Profiles;
 
-namespace MagmaWorks.Taxonomy.Sections
+namespace VividOrange.Taxonomy.Sections
 {
     public class Section : ISection
     {

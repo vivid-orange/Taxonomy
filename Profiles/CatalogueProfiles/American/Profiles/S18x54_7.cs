@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class S18x54_7 : SingletonAmericanBase<S18x54_7>, IITaperFlange
     {

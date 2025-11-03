@@ -1,7 +1,7 @@
-﻿using MagmaWorks.Taxonomy.Materials.StandardMaterials;
-using MagmaWorks.Taxonomy.Materials.StandardMaterials.En;
+﻿using VividOrange.Taxonomy.Materials.StandardMaterials;
+using VividOrange.Taxonomy.Materials.StandardMaterials.En;
 
-namespace MagmaWorks.Taxonomy.Materials
+namespace VividOrange.Taxonomy.Materials
 {
     public static partial class AnalysisMaterialFactory
     {

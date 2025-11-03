@@ -1,5 +1,5 @@
 ﻿using LoadCaseTests;
-using MagmaWorks.Taxonomy.Loads.Combinations;
+using VividOrange.Taxonomy.Loads.Combinations;
 
 namespace CombinationTests
 {

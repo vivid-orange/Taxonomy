@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.Taxonomy.Serialization;
+using VividOrange.Taxonomy.Serialization;
 
 namespace LoadTests
 {
@@ -80,7 +80,7 @@ namespace LoadTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)

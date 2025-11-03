@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Stages.UK.RIBA2007
+﻿namespace VividOrange.Taxonomy.Stages.UK.RIBA2007
 {
     public class RIBAStageL : IInUse
     {

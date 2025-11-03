@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Geometry;
+using VividOrange.Geometry;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     internal static class Utility
     {

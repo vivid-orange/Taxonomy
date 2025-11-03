@@ -1,4 +1,4 @@
-using MagmaWorks.Taxonomy.Countries;
+using VividOrange.Taxonomy.Countries;
 
 namespace CountryTests
 {

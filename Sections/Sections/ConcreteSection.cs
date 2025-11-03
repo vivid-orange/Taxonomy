@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Materials.StandardMaterials.En;
-using MagmaWorks.Taxonomy.Profiles;
-using MagmaWorks.Taxonomy.Sections.Exceptions;
-using MagmaWorks.Taxonomy.Sections.Reinforcement;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Materials.StandardMaterials.En;
+using VividOrange.Taxonomy.Profiles;
+using VividOrange.Taxonomy.Sections.Exceptions;
+using VividOrange.Taxonomy.Sections.Reinforcement;
 
-namespace MagmaWorks.Taxonomy.Sections
+namespace VividOrange.Taxonomy.Sections
 {
     public class ConcreteSection : Section, IConcreteSection
     {

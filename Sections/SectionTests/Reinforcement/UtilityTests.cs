@@ -1,5 +1,5 @@
-﻿using MagmaWorks.Geometry;
-using Utility = MagmaWorks.Taxonomy.Sections.Reinforcement.Utility;
+﻿using VividOrange.Geometry;
+using Utility = VividOrange.Taxonomy.Sections.Reinforcement.Utility;
 
 namespace SectionTests.ReinforcementTests
 {

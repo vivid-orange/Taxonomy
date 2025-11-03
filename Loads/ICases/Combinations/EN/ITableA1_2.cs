@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Taxonomy.Standards.Eurocode;
 
-namespace MagmaWorks.Taxonomy.Loads.Combinations.EN
+namespace VividOrange.Taxonomy.Loads.Combinations.EN
 {
     public interface ITableA1_2
     {

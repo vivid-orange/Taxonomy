@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Countries;
+﻿using VividOrange.Taxonomy.Countries;
 
-namespace MagmaWorks.Taxonomy.Stages.UK
+namespace VividOrange.Taxonomy.Stages.UK
 {
     public class RIBA : IGovernance
     {

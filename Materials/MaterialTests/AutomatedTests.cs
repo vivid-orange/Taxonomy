@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.Taxonomy.Serialization;
+using VividOrange.Taxonomy.Serialization;
 
 namespace MaterialTests
 {
@@ -79,7 +79,7 @@ namespace MaterialTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)
@@ -235,7 +235,7 @@ namespace MaterialTests
 
             foreach (Assembly assembly in assemblies)
             {
-                if (!assembly.FullName.StartsWith("MagmaWorks."))
+                if (!assembly.FullName.StartsWith("VividOrange."))
                 {
                     continue;
                 }

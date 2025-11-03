@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public interface IReinforcementLayout : ITaxonomySerializable
     {

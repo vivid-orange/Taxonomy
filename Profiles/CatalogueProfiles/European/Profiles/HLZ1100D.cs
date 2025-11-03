@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class HLZ1100D : SingletonEuropeanBase<HLZ1100D>, IITaperFlange
     {

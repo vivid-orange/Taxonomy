@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MagmaWorks.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
 {
     public interface IEnConcreteMaterial : IStandardMaterial
     {

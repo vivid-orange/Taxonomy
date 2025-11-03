@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class M4x4_08 : SingletonAmericanBase<M4x4_08>, IIParallelFlange
     {

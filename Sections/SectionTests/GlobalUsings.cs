@@ -1,8 +1,8 @@
-global using MagmaWorks.Taxonomy.Materials.StandardMaterials.En;
-global using MagmaWorks.Taxonomy.Profiles;
-global using MagmaWorks.Taxonomy.Sections;
-global using MagmaWorks.Taxonomy.Sections.Reinforcement;
-global using MagmaWorks.Taxonomy.Standards.Eurocode;
+global using VividOrange.Taxonomy.Materials.StandardMaterials.En;
+global using VividOrange.Taxonomy.Profiles;
+global using VividOrange.Taxonomy.Sections;
+global using VividOrange.Taxonomy.Sections.Reinforcement;
+global using VividOrange.Taxonomy.Standards.Eurocode;
 global using UnitsNet;
 global using UnitsNet.Units;
 global using Xunit;

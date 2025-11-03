@@ -1,7 +1,7 @@
-﻿using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Materials;
+﻿using VividOrange.Geometry;
+using VividOrange.Taxonomy.Materials;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class LongitudinalReinforcement : ILongitudinalReinforcement
     {

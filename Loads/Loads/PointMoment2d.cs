@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Loads
+namespace VividOrange.Taxonomy.Loads
 {
     public class PointMoment2d : IPointMoment2d
     {

@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Taxonomy.Standards.Eurocode;
 
-namespace MagmaWorks.Taxonomy.Loads.Cases.EN
+namespace VividOrange.Taxonomy.Loads.Cases.EN
 {
     public interface ITableA1_1Snow
     {

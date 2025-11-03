@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.Taxonomy.Serialization;
-using MagmaWorks.Taxonomy.Standards;
+using VividOrange.Taxonomy.Serialization;
+using VividOrange.Taxonomy.Standards;
 
 namespace StandardTests
 {
@@ -77,7 +77,7 @@ namespace StandardTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)

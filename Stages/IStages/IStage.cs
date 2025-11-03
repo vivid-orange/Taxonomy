@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Stages
+namespace VividOrange.Taxonomy.Stages
 {
     public interface IStage : ITaxonomySerializable
     {

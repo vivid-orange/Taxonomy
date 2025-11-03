@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.1</MinVerMinimumMajorMinor>
@@ -9,28 +9,24 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.Taxonomy.Standards</RootNamespace>
+    <RootNamespace>VividOrange.Taxonomy.Profiles</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Taxonomy Standards</Title>
+    <Title>VividOrange Taxonomy Perimeter Profiles</Title>
     <Company>Whitby Wood</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/Taxonomy/</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <PackageIcon>vivid-orange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="VividOrange.Geometry" Version="0.1.0" />
     <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <ProjectReference Include="..\IStandards\MagmaWorks.Taxonomy.IStandards.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,10 +42,15 @@
       <Pack>True</Pack>
       <PackagePath>\Licenses\</PackagePath>
     </None>
-    <None Include="..\..\MagmaWorks.png">
+    <None Include="..\..\vivid-orange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IProfiles\VividOrange.Taxonomy.IProfiles.csproj" />
+    <ProjectReference Include="..\Profiles\VividOrange.Taxonomy.Profiles.csproj" />
   </ItemGroup>
 
 </Project>

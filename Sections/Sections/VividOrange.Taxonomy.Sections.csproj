@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.1</MinVerMinimumMajorMinor>
@@ -9,21 +9,21 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.Taxonomy.Sections</RootNamespace>
+    <RootNamespace>VividOrange.Taxonomy.Sections</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Taxonomy Sections</Title>
+    <Title>Vivid Orange Taxonomy Sections</Title>
     <Company>Whitby Wood</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/Taxonomy/</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <PackageIcon>VividOrange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MagmaWorks.Geometry" Version="0.1.0" />
-    <PackageReference Include="MagmaWorks.IGeometry" Version="0.1.0" />
+    <PackageReference Include="VividOrange.Geometry" Version="0.1.0" />
+    <PackageReference Include="VividOrange.IGeometry" Version="0.1.0" />
     <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -31,10 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Profiles\Perimeter\MagmaWorks.Taxonomy.Profiles.Perimeter.csproj" />
-    <ProjectReference Include="..\ISections\MagmaWorks.Taxonomy.ISections.csproj" />
-    <ProjectReference Include="..\..\Materials\IMaterials\MagmaWorks.Taxonomy.IMaterials.csproj" />
-    <ProjectReference Include="..\..\Profiles\IProfiles\MagmaWorks.Taxonomy.IProfiles.csproj" />
+    <ProjectReference Include="..\..\Profiles\Perimeter\VividOrange.Taxonomy.Profiles.Perimeter.csproj" />
+    <ProjectReference Include="..\ISections\VividOrange.Taxonomy.ISections.csproj" />
+    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.Taxonomy.IMaterials.csproj" />
+    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.Taxonomy.IProfiles.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,7 +46,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\MagmaWorks.png">
+    <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

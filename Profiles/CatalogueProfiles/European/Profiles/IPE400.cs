@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class IPE400 : SingletonEuropeanBase<IPE400>, IIParallelFlange
     {

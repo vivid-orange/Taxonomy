@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class L5x3_1over2x5over16 : SingletonAmericanBase<L5x3_1over2x5over16>, ILeg
     {

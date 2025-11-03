@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Countries;
+﻿using VividOrange.Taxonomy.Countries;
 
-namespace MagmaWorks.Taxonomy.Stages.Denmark
+namespace VividOrange.Taxonomy.Stages.Denmark
 {
     public class AB89 : IGovernance
     {

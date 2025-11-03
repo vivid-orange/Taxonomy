@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Taxonomy.Sections.Reinforcement;
+using VividOrange.Taxonomy.Sections.Reinforcement;
 
-namespace MagmaWorks.Taxonomy.Sections
+namespace VividOrange.Taxonomy.Sections
 {
     public interface IConcreteSection : ISection
     {

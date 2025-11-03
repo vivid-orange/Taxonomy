@@ -1,6 +1,6 @@
-global using MagmaWorks.Taxonomy.Loads;
-global using MagmaWorks.Taxonomy.Loads.Cases;
-global using MagmaWorks.Taxonomy.Standards.Eurocode;
+global using VividOrange.Taxonomy.Loads;
+global using VividOrange.Taxonomy.Loads.Cases;
+global using VividOrange.Taxonomy.Standards.Eurocode;
 global using UnitsNet;
 global using UnitsNet.Units;
 global using Xunit;

@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using CatalogueGenerator.Utilities;
-using MagmaWorks.Taxonomy.Profiles;
+using VividOrange.Taxonomy.Profiles;
 using UnitsNet.Units;
 
 namespace CatalogueProfileGenerator

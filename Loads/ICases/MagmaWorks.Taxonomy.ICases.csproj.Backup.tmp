@@ -9,16 +9,16 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.Taxonomy.Serialization</RootNamespace>
+    <RootNamespace>VividOrange.Taxonomy.Loads</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Taxonomy Serialization Interfaces</Title>
+    <Title>VividOrange Taxonomy Load Case Interfaces</Title>
     <Company>Whitby Wood</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/Taxonomy/</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <PackageIcon>vivid-orange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -41,10 +41,16 @@
       <Pack>True</Pack>
       <PackagePath>\Licenses\</PackagePath>
     </None>
-    <None Include="..\..\MagmaWorks.png">
+    <None Include="..\..\vivid-orange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
+    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
+    <ProjectReference Include="..\ILoads\VividOrange.Taxonomy.ILoads.csproj" />
   </ItemGroup>
 
 </Project>

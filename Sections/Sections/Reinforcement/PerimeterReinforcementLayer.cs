@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Profiles;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Profiles;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class PerimeterReinforcementLayer : IPerimeterReinforcementLayer
     {

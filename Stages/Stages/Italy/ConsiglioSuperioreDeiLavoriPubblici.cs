@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Countries;
+﻿using VividOrange.Taxonomy.Countries;
 
-namespace MagmaWorks.Taxonomy.Stages.Italy
+namespace VividOrange.Taxonomy.Stages.Italy
 {
     public class ConsiglioSuperioreDeiLavoriPubblici : IGovernance
     {

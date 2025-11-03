@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Standards
+namespace VividOrange.Taxonomy.Standards
 {
     public interface IStandard : ITaxonomySerializable
     {

@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class HSS2x1_1over2x_125 : SingletonAmericanBase<HSS2x1_1over2x_125>, IRoundedRectangularHollow
     {

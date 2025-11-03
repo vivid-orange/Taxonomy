@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Materials;
+﻿using VividOrange.Taxonomy.Materials;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class Link : Rebar, ILink
     {

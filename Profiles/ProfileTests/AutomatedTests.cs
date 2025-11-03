@@ -75,7 +75,7 @@ namespace ProfileTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace MagmaWorks.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
 {
     public static class EnRebarFactory
     {

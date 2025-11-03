@@ -1,9 +1,9 @@
-﻿using MagmaWorks.Taxonomy.Stages;
-using MagmaWorks.Taxonomy.Stages.Denmark;
-using MagmaWorks.Taxonomy.Stages.Germany;
-using MagmaWorks.Taxonomy.Stages.Italy;
-using MagmaWorks.Taxonomy.Stages.UK;
-using MagmaWorks.Taxonomy.Stages.UK.RIBA2007;
+﻿using VividOrange.Taxonomy.Stages;
+using VividOrange.Taxonomy.Stages.Denmark;
+using VividOrange.Taxonomy.Stages.Germany;
+using VividOrange.Taxonomy.Stages.Italy;
+using VividOrange.Taxonomy.Stages.UK;
+using VividOrange.Taxonomy.Stages.UK.RIBA2007;
 
 namespace StageTests
 {

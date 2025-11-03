@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Profiles.PerimeterFactory
+﻿namespace VividOrange.Taxonomy.Profiles.PerimeterFactory
 {
     public static partial class PerimeterFactory
     {

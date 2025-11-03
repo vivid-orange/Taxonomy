@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MagmaWorks.Taxonomy.Serialization
+namespace VividOrange.Taxonomy.Serialization
 {
     internal static class TaxonomyJsonSerializer
     {

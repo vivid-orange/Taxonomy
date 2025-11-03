@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Profiles
+﻿namespace VividOrange.Taxonomy.Profiles
 {
     public interface ICruciform : IProfile
     {

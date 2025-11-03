@@ -1,5 +1,5 @@
-using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Serialization;
+using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Serialization;
 
 namespace SectionTests
 {

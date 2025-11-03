@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Profiles;
-using MagmaWorks.Taxonomy.Serialization;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Profiles;
+using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public interface IReinforcementLayer : ITaxonomySerializable
     {

@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Sections.Exceptions;
-using Angle = MagmaWorks.Taxonomy.Profiles.Angle;
+﻿using VividOrange.Geometry;
+using VividOrange.Taxonomy.Sections.Exceptions;
+using Angle = VividOrange.Taxonomy.Profiles.Angle;
 
 namespace SectionTests.ReinforcementTests
 {

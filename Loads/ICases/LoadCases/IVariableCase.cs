@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Loads.Cases
+﻿namespace VividOrange.Taxonomy.Loads.Cases
 {
     public interface IVariableCase : ILoadCase
     {

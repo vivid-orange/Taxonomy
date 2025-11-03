@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.Taxonomy.Serialization;
-using MagmaWorks.Taxonomy.Stages;
-using MagmaWorks.Taxonomy.Stages.UK;
+using VividOrange.Taxonomy.Serialization;
+using VividOrange.Taxonomy.Stages;
+using VividOrange.Taxonomy.Stages.UK;
 
 namespace StageTests
 {
@@ -65,7 +65,7 @@ namespace StageTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.GetCustomAttribute(typeof(CompilerGeneratedAttribute), true) == null)

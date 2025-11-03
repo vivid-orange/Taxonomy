@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class IPN280 : SingletonEuropeanBase<IPN280>, IITaperFlange
     {

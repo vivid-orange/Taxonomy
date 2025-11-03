@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Standards.Eurocode
+﻿namespace VividOrange.Taxonomy.Standards.Eurocode
 {
     internal static class En1994Utility
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Taxonomy.Loads.Cases;
+using VividOrange.Taxonomy.Loads.Cases;
 
-namespace MagmaWorks.Taxonomy.Loads.Combinations
+namespace VividOrange.Taxonomy.Loads.Combinations
 {
     public interface IServiceabilityLimitState : ILoadCombination
     {

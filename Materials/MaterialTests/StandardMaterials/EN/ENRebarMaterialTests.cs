@@ -1,4 +1,4 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
 namespace MaterialTests.StandardMaterials.En
 {

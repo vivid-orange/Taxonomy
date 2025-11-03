@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Sections
+﻿namespace VividOrange.Taxonomy.Sections
 {
     public enum SectionFace
     {

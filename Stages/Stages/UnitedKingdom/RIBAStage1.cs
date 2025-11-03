@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Stages.UK
+﻿namespace VividOrange.Taxonomy.Stages.UK
 {
     public class RIBAStage1 : IBrief
     {

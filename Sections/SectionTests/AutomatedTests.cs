@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Sections.Exceptions;
-using MagmaWorks.Taxonomy.Serialization;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Sections.Exceptions;
+using VividOrange.Taxonomy.Serialization;
 
 namespace SectionTests
 {
@@ -78,7 +78,7 @@ namespace SectionTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)
@@ -240,7 +240,7 @@ namespace SectionTests
 
             foreach (Assembly assembly in assemblies)
             {
-                if (!assembly.FullName.StartsWith("MagmaWorks."))
+                if (!assembly.FullName.StartsWith("VividOrange."))
                 {
                     continue;
                 }

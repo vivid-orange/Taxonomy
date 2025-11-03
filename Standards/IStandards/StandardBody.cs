@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace MagmaWorks.Taxonomy.Standards
+namespace VividOrange.Taxonomy.Standards
 {
     public enum StandardBody
     {

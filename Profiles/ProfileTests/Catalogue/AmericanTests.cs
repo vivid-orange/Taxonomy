@@ -32,7 +32,7 @@ namespace ProfileTests.Catalogue
         [MemberData(nameof(AmericanEnumValues))]
         public void TestAmericanCatalogue(American type)
         {
-            ICatalogue profile = MagmaWorks.Taxonomy.Profiles.CatalogueFactory.CreateAmerican(type);
+            ICatalogue profile = VividOrange.Taxonomy.Profiles.CatalogueFactory.CreateAmerican(type);
             Assert.NotNull(profile);
             List<string> expectedValues = CsvValues[profile.Label];
             ProfileValuesTest(profile, expectedValues);
@@ -283,7 +283,7 @@ namespace ProfileTests.Catalogue
         private void ICatalogueTest(ICatalogue prfl)
         {
             // Assert
-            Assert.Equal(MagmaWorks.Taxonomy.Profiles.Catalogue.AmericanAISC, prfl.Catalogue);
+            Assert.Equal(VividOrange.Taxonomy.Profiles.Catalogue.AmericanAISC, prfl.Catalogue);
         }
 
         private void SurvivesRoundtripDeserializationTest<T>(T profile, List<string> expectedValues)

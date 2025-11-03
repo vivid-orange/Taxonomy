@@ -9,16 +9,16 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.Taxonomy.Stages</RootNamespace>
+    <RootNamespace>VividOrange.Taxonomy.Countries</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Taxonomy Stages</Title>
+    <Title>VividOrange Taxonomy Stages</Title>
     <Company>Whitby Wood</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/Taxonomy/</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <PackageIcon>vivid-orange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,11 +26,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Countries\Countries\MagmaWorks.Taxonomy.Countries.csproj" />
-    <ProjectReference Include="..\IStages\MagmaWorks.Taxonomy.IStages.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,10 +37,14 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\MagmaWorks.png">
+    <None Include="..\..\vivid-orange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>
