@@ -13,8 +13,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Stages</Title>
-    <Company>Whitby Wood</Company>
+    <Title>Vivid Orange Taxonomy Countries</Title>
+    <Description>A small library defining the names of countries on planet earth.</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>

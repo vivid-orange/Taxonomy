@@ -14,7 +14,8 @@
 
   <PropertyGroup>
     <Title>Vivid Orange Taxonomy Serialization</Title>
-    <Company>Whitby Wood</Company>
+    <Description>(De)Serialization for all Vivid Orange Taxonomy libraries</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>

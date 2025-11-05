@@ -14,7 +14,8 @@
 
   <PropertyGroup>
     <Title>Vivid Orange Taxonomy Perimeter Profiles</Title>
-    <Company>Whitby Wood</Company>
+    <Description>Profile defined geometrically by a perimeter for cross-sections in Structural Engineering design</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
@@ -22,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="VividOrange.Geometry" Version="0.1.0" />
+    <PackageReference Include="VividOrange.Geometry" Version="1.7.1-beta" />
     <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

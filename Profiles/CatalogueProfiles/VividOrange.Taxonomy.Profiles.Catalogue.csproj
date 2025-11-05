@@ -14,7 +14,8 @@
 
   <PropertyGroup>
     <Title>Vivid Orange Taxonomy Catalogue Profiles</Title>
-    <Company>Whitby Wood</Company>
+    <Description>Standard Steel Catalogue Profile definitions for cross-sections in Structural Engineering</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>

@@ -14,7 +14,8 @@
 
   <PropertyGroup>
     <Title>Vivid Orange Taxonomy Material Interfaces</Title>
-    <Company>Whitby Wood</Company>
+    <Description>Material definitions for Structural Engineering design,analysis and specifications</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>

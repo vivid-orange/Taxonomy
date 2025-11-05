@@ -14,7 +14,8 @@
 
   <PropertyGroup>
     <Title>Vivid Orange Taxonomy Stages</Title>
-    <Company>Whitby Wood</Company>
+    <Description>Design Stages applied in the AEC industry, like RIBA Stage 2 - Concept Design</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
