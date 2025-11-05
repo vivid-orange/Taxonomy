@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Standards;
+﻿using VividOrange.Taxonomy.Standards;
 
-namespace MagmaWorks.Taxonomy.Materials.StandardMaterials
+namespace VividOrange.Taxonomy.Materials.StandardMaterials
 {
     public interface IStandardMaterial : IMaterial
     {

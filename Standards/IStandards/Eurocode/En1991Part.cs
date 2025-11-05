@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace MagmaWorks.Taxonomy.Standards.Eurocode
+namespace VividOrange.Taxonomy.Standards.Eurocode
 {
     public enum En1991Part
     {

@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public interface IProfile : ITaxonomySerializable
     {

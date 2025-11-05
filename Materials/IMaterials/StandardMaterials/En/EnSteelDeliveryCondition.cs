@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace MagmaWorks.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
 {
     public enum EnSteelDeliveryCondition
     {

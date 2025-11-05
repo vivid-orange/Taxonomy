@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Profiles
+﻿namespace VividOrange.Taxonomy.Profiles
 {
     public abstract class SingletonCatalogueBase<T> where T : SingletonCatalogueBase<T>
     {

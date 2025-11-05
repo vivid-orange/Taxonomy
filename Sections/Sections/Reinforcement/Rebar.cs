@@ -1,7 +1,7 @@
-﻿using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Sections.Exceptions;
+﻿using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Sections.Exceptions;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class Rebar : IRebar
     {

@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.Taxonomy.Countries;
-using MagmaWorks.Taxonomy.Serialization;
+using VividOrange.Taxonomy.Countries;
+using VividOrange.Taxonomy.Serialization;
 
 namespace CountryTests
 {
@@ -61,7 +61,7 @@ namespace CountryTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.GetCustomAttribute(typeof(CompilerGeneratedAttribute), true) == null)

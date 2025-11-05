@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Countries;
+﻿using VividOrange.Taxonomy.Countries;
 
-namespace MagmaWorks.Taxonomy.Stages.Germany
+namespace VividOrange.Taxonomy.Stages.Germany
 {
     public class HOAI : IGovernance
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Taxonomy.Loads.Cases.EN;
-using MagmaWorks.Taxonomy.Standards.Eurocode;
+using VividOrange.Taxonomy.Loads.Cases.EN;
+using VividOrange.Taxonomy.Standards.Eurocode;
 
-namespace MagmaWorks.Taxonomy.Loads.Cases
+namespace VividOrange.Taxonomy.Loads.Cases
 {
     internal class ENTableA1_1Imposed : ITableA1_1Imposed
     {

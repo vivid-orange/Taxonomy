@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Stages.Italy
+﻿namespace VividOrange.Taxonomy.Stages.Italy
 {
     public class DD : ISchematicDesign
     {

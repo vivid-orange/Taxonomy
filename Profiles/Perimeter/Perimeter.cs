@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using MagmaWorks.Geometry;
+using VividOrange.Geometry;
 
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public class Perimeter : IPerimeter
     {

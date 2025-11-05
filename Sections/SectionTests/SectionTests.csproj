@@ -14,7 +14,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="MagmaWorks.Geometry" Version="0.1.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
@@ -24,15 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Materials\IMaterials\MagmaWorks.Taxonomy.IMaterials.csproj" />
-    <ProjectReference Include="..\..\Materials\Materials\MagmaWorks.Taxonomy.Materials.csproj" />
-    <ProjectReference Include="..\..\Profiles\CatalogueProfiles\MagmaWorks.Taxonomy.Profiles.Catalogue.csproj" />
-    <ProjectReference Include="..\..\Profiles\IProfiles\MagmaWorks.Taxonomy.IProfiles.csproj" />
-    <ProjectReference Include="..\..\Profiles\Profiles\MagmaWorks.Taxonomy.Profiles.csproj" />
-    <ProjectReference Include="..\..\Serialization\Serialization\MagmaWorks.Taxonomy.Serialization.csproj" />
-    <ProjectReference Include="..\..\Standards\Standards\MagmaWorks.Taxonomy.Standards.csproj" />
-    <ProjectReference Include="..\ISections\MagmaWorks.Taxonomy.ISections.csproj" />
-    <ProjectReference Include="..\Sections\MagmaWorks.Taxonomy.Sections.csproj" />
+    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.Taxonomy.IMaterials.csproj" />
+    <ProjectReference Include="..\..\Materials\Materials\VividOrange.Taxonomy.Materials.csproj" />
+    <ProjectReference Include="..\..\Profiles\CatalogueProfiles\VividOrange.Taxonomy.Profiles.Catalogue.csproj" />
+    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.Taxonomy.IProfiles.csproj" />
+    <ProjectReference Include="..\..\Profiles\Profiles\VividOrange.Taxonomy.Profiles.csproj" />
+    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Taxonomy.Serialization.csproj" />
+    <ProjectReference Include="..\..\Standards\Standards\VividOrange.Taxonomy.Standards.csproj" />
+    <ProjectReference Include="..\ISections\VividOrange.Taxonomy.ISections.csproj" />
+    <ProjectReference Include="..\Sections\VividOrange.Taxonomy.Sections.csproj" />
   </ItemGroup>
 
   <ItemGroup>

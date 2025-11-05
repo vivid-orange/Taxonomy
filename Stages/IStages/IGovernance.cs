@@ -1,7 +1,7 @@
 ﻿
-using MagmaWorks.Taxonomy.Countries;
+using VividOrange.Taxonomy.Countries;
 
-namespace MagmaWorks.Taxonomy.Stages
+namespace VividOrange.Taxonomy.Stages
 {
     public interface IGovernance
     {

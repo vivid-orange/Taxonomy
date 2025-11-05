@@ -9,16 +9,17 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.Taxonomy.Loads</RootNamespace>
+    <RootNamespace>VividOrange.Taxonomy.Countries</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Taxonomy Load Case Interfaces</Title>
-    <Company>Whitby Wood</Company>
+    <Title>Vivid Orange Taxonomy Countries</Title>
+    <Description>A small library defining the names of countries on planet earth.</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/Taxonomy/</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <PackageIcon>VividOrange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -37,20 +38,14 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\Licenses\UnitsNet">
-      <Pack>True</Pack>
-      <PackagePath>\Licenses\</PackagePath>
-    </None>
-    <None Include="..\..\MagmaWorks.png">
+    <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\MagmaWorks.Taxonomy.ISerialization.csproj" />
-    <ProjectReference Include="..\..\Standards\IStandards\MagmaWorks.Taxonomy.IStandards.csproj" />
-    <ProjectReference Include="..\ILoads\MagmaWorks.Taxonomy.ILoads.csproj" />
+    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>

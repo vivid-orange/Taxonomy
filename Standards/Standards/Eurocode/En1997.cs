@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Standards.Eurocode
+﻿namespace VividOrange.Taxonomy.Standards.Eurocode
 {
     public class En1997 : IStandard
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MagmaWorks.Taxonomy.Loads.Cases;
+using VividOrange.Taxonomy.Loads.Cases;
 
-namespace MagmaWorks.Taxonomy.Loads.Combinations
+namespace VividOrange.Taxonomy.Loads.Combinations
 {
     internal static class Utility
     {

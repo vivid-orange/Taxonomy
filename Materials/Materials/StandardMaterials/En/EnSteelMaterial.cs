@@ -1,7 +1,7 @@
-﻿using MagmaWorks.Taxonomy.Standards;
-using MagmaWorks.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Taxonomy.Standards;
+using VividOrange.Taxonomy.Standards.Eurocode;
 
-namespace MagmaWorks.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
 {
     public class EnSteelMaterial : IEnSteelMaterial
     {

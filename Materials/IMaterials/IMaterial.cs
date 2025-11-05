@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Materials
+namespace VividOrange.Taxonomy.Materials
 {
     public interface IMaterial : ITaxonomySerializable
     {

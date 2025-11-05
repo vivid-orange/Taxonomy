@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Geometry;
+using VividOrange.Geometry;
 
-namespace MagmaWorks.Taxonomy.Profiles.PerimeterFactory
+namespace VividOrange.Taxonomy.Profiles.PerimeterFactory
 {
     public static class PerimeterFactoryUtility
     {

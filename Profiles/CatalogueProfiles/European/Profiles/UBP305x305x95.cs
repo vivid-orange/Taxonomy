@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class UBP305x305x95 : SingletonEuropeanBase<UBP305x305x95>, IIParallelFlange
     {

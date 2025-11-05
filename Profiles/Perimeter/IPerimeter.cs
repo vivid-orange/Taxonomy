@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using MagmaWorks.Geometry;
+using VividOrange.Geometry;
 
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public interface IPerimeter : IProfile
     {

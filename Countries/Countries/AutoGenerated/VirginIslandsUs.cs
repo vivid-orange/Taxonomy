@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Countries
+namespace VividOrange.Taxonomy.Countries
 {
     public sealed class VirginIslandsUs : SingletonCountryBase<VirginIslandsUs>, ICountry
     {

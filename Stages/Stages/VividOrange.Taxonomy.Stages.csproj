@@ -9,16 +9,17 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.Taxonomy.Standards</RootNamespace>
+    <RootNamespace>VividOrange.Taxonomy.Stages</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Taxonomy Standards</Title>
-    <Company>Whitby Wood</Company>
+    <Title>Vivid Orange Taxonomy Stages</Title>
+    <Description>Design Stages applied in the AEC industry, like RIBA Stage 2 - Concept Design</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/Taxonomy/</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <PackageIcon>VividOrange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,9 +29,9 @@
     </PackageReference>
   </ItemGroup>
 
-
   <ItemGroup>
-    <ProjectReference Include="..\IStandards\MagmaWorks.Taxonomy.IStandards.csproj" />
+    <ProjectReference Include="..\..\Countries\Countries\VividOrange.Taxonomy.Countries.csproj" />
+    <ProjectReference Include="..\IStages\VividOrange.Taxonomy.IStages.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,11 +43,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\Licenses\UnitsNet">
-      <Pack>True</Pack>
-      <PackagePath>\Licenses\</PackagePath>
-    </None>
-    <None Include="..\..\MagmaWorks.png">
+    <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

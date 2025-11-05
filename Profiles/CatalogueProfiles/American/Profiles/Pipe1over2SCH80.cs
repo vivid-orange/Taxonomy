@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class Pipe1over2SCH80 : SingletonAmericanBase<Pipe1over2SCH80>, ICircularHollow
     {

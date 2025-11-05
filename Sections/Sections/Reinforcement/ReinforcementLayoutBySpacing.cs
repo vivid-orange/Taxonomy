@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+﻿namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public class ReinforcementLayoutBySpacing : IReinforcementLayoutBySpacing
     {

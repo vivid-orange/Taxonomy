@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class UPE360 : SingletonEuropeanBase<UPE360>, IChannelParallelFlange
     {

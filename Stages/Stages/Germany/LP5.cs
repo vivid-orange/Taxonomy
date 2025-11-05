@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Stages.Germany
+﻿namespace VividOrange.Taxonomy.Stages.Germany
 {
     public class LP5 : IDetailedDesign
     {

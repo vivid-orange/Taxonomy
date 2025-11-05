@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Stages.Denmark
+﻿namespace VividOrange.Taxonomy.Stages.Denmark
 {
     public class Dispositionsforslag : IConceptualDesign
     {

@@ -1,8 +1,8 @@
-﻿using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Profiles;
-using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Profiles;
+using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Sections
+namespace VividOrange.Taxonomy.Sections
 {
     public interface ISection : ITaxonomySerializable
     {

@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Materials
+﻿namespace VividOrange.Taxonomy.Materials
 {
     public class ParabolaRectangleMaterial : IParabolaRectangleMaterial
     {

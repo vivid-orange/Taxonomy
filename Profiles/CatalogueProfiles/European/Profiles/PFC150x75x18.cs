@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class PFC150x75x18 : SingletonEuropeanBase<PFC150x75x18>, IChannelParallelFlange
     {

@@ -4,7 +4,7 @@ namespace CatalogueProfileGenerator
 {
     public class Program
     {
-        private static string _namespace = "MagmaWorks.Taxonomy.Profiles";
+        private static string _namespace = "VividOrange.Taxonomy.Profiles";
         public static void Main()
         {
             ConvertEuropean();

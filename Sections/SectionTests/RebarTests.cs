@@ -1,4 +1,4 @@
-using MagmaWorks.Taxonomy.Sections.Exceptions;
+using VividOrange.Taxonomy.Sections.Exceptions;
 
 namespace SectionTests
 {

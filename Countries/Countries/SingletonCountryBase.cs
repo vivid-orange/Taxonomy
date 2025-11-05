@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MagmaWorks.Taxonomy.Countries
+namespace VividOrange.Taxonomy.Countries
 {
     public abstract class SingletonCountryBase<T> where T : SingletonCountryBase<T>
     {

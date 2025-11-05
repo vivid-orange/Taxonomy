@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class UPN350 : SingletonEuropeanBase<UPN350>, IChannelTaperFlange
     {

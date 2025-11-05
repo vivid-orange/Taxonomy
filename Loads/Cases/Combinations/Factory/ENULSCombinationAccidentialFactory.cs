@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using MagmaWorks.Taxonomy.Loads.Cases;
-using MagmaWorks.Taxonomy.Standards.Eurocode;
+using VividOrange.Taxonomy.Loads.Cases;
+using VividOrange.Taxonomy.Standards.Eurocode;
 
-namespace MagmaWorks.Taxonomy.Loads.Combinations
+namespace VividOrange.Taxonomy.Loads.Combinations
 {
     public static partial class ENCombinationFactory
     {

@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Profiles;
+﻿using VividOrange.Taxonomy.Profiles;
 
-namespace MagmaWorks.Taxonomy.Sections.Exceptions
+namespace VividOrange.Taxonomy.Sections.Exceptions
 {
     public class InvalidProfileTypeException : Exception
     {

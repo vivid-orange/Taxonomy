@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Stages
+﻿namespace VividOrange.Taxonomy.Stages
 {
     public class ConceptDesign : IConceptualDesign
     {

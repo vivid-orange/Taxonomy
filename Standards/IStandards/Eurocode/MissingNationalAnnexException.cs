@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MagmaWorks.Taxonomy.Standards.Eurocode
+namespace VividOrange.Taxonomy.Standards.Eurocode
 {
     public class MissingNationalAnnexException : Exception
     {

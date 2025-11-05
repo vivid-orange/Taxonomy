@@ -1,4 +1,4 @@
-namespace MagmaWorks.Taxonomy.Profiles
+namespace VividOrange.Taxonomy.Profiles
 {
     public sealed class IPEV600 : SingletonEuropeanBase<IPEV600>, IIParallelFlange
     {

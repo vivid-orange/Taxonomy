@@ -1,7 +1,7 @@
-﻿using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Taxonomy.Sections.Reinforcement
 {
     public interface IRebar : ITaxonomySerializable
     {

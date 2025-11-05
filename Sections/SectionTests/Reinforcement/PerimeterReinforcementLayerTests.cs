@@ -1,4 +1,4 @@
-﻿using MagmaWorks.Geometry;
+﻿using VividOrange.Geometry;
 
 namespace SectionTests.ReinforcementTests
 {

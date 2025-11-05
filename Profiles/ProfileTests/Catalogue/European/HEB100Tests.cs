@@ -43,7 +43,7 @@ namespace ProfileTests.Catalogue
             // Assert
             Assert.NotNull(prfl);
             Assert.Equal("HE 100 B", prfl.Label);
-            Assert.Equal(MagmaWorks.Taxonomy.Profiles.Catalogue.EuropeanEN10365, prfl.Catalogue);
+            Assert.Equal(VividOrange.Taxonomy.Profiles.Catalogue.EuropeanEN10365, prfl.Catalogue);
         }
 
         [Fact]
@@ -92,7 +92,7 @@ namespace ProfileTests.Catalogue
             // Assert
             Assert.NotNull(prflDeserialized);
             Assert.Equal("HE 100 B", prflDeserialized.Label);
-            Assert.Equal(MagmaWorks.Taxonomy.Profiles.Catalogue.EuropeanEN10365, prflDeserialized.Catalogue);
+            Assert.Equal(VividOrange.Taxonomy.Profiles.Catalogue.EuropeanEN10365, prflDeserialized.Catalogue);
         }
     }
 }

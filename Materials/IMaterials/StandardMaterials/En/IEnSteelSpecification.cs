@@ -1,6 +1,6 @@
-﻿using MagmaWorks.Taxonomy.Serialization;
+﻿using VividOrange.Taxonomy.Serialization;
 
-namespace MagmaWorks.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
 {
     public interface IEnSteelSpecification : ITaxonomySerializable
     {

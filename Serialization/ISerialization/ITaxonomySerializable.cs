@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.Taxonomy.Serialization
+﻿namespace VividOrange.Taxonomy.Serialization
 {
     public interface ITaxonomySerializable { }
 }
