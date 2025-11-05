@@ -1,10 +1,10 @@
 global using System;
+global using UnitsNet;
+global using UnitsNet.Units;
 global using VividOrange.Taxonomy.Materials;
 global using VividOrange.Taxonomy.Materials.StandardMaterials.En;
 global using VividOrange.Taxonomy.Standards;
 global using VividOrange.Taxonomy.Standards.Eurocode;
-global using UnitsNet;
-global using UnitsNet.Units;
 global using Xunit;
 global using Strain = UnitsNet.Ratio;
 global using StrainUnit = UnitsNet.Units.RatioUnit;

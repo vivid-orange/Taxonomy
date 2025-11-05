@@ -1,7 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using CatalogueGenerator.Utilities;
-using VividOrange.Taxonomy.Profiles;
 using UnitsNet.Units;
+using VividOrange.Taxonomy.Profiles;
 
 namespace CatalogueProfileGenerator
 {
