@@ -18,7 +18,7 @@
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/VividOrange/Taxonomy/</RepositoryUrl>
+    <RepositoryUrl>https://github.com/vivid-orange/Taxonomy/</RepositoryUrl>
     <PackageIcon>VividOrange.png</PackageIcon>
   </PropertyGroup>
 
