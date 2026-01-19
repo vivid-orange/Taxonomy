@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Profiles
+﻿namespace VividOrange.Profiles
 {
     public abstract class SingletonCatalogueBase<T> where T : SingletonCatalogueBase<T>
     {

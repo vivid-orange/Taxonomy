@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Materials.StandardMaterials.En
 {
     public interface IEnSteelSpecification : ITaxonomySerializable
     {

@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Loads.Cases
+﻿namespace VividOrange.Loads.Cases
 {
     public interface IVariableCase : ILoadCase
     {

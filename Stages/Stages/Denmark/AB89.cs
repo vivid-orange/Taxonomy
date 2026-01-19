@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Countries;
+﻿using VividOrange.Countries;
 
-namespace VividOrange.Taxonomy.Stages.Denmark
+namespace VividOrange.Stages.Denmark
 {
     public class AB89 : IGovernance
     {

@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Materials.StandardMaterials.AASHTO
+﻿namespace VividOrange.Materials.StandardMaterials.AASHTO
 {
     public enum AASHTOConcreteGrade
     {

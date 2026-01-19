@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Stages.UK
+﻿namespace VividOrange.Stages.UK
 {
     public class RIBAStage2 : IConceptualDesign
     {

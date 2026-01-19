@@ -4,7 +4,7 @@ namespace CountryGenerator
 {
     public class Program
     {
-        private static string _namespace = "VividOrange.Taxonomy.Countries";
+        private static string _namespace = "VividOrange.Countries";
         private static string _indt = "    ";
         public static void Main()
         {

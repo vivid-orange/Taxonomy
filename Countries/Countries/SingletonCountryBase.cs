@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VividOrange.Taxonomy.Countries
+namespace VividOrange.Countries
 {
     public abstract class SingletonCountryBase<T> where T : SingletonCountryBase<T>
     {

@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class HLZ1100B : SingletonEuropeanBase<HLZ1100B>, IITaperFlange
     {

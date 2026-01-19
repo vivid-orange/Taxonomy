@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using VividOrange.Taxonomy.Loads.Cases;
+using VividOrange.Loads.Cases;
 
-namespace VividOrange.Taxonomy.Loads.Combinations
+namespace VividOrange.Loads.Combinations
 {
     internal static class Utility
     {

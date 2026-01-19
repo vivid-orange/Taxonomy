@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Profiles;
+using VividOrange.Profiles;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public class PerimeterReinforcementLayer : IPerimeterReinforcementLayer
     {

@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class WT15x49_5 : SingletonAmericanBase<WT15x49_5>, ICutTeeParallelFlange
     {

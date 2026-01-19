@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class MT4x3_1 : SingletonAmericanBase<MT4x3_1>, ICutTeeParallelFlange
     {

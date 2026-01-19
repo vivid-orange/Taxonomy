@@ -4,17 +4,17 @@
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
     <MinVerDefaultPreReleaseIdentifiers>preview</MinVerDefaultPreReleaseIdentifiers>
   </PropertyGroup>
-  
+
   <PropertyGroup>
-	<TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
-	  <LangVersion>10.0</LangVersion>
+    <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
+    <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Profiles</RootNamespace>
+    <RootNamespace>VividOrange.Standards</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Profile Interfaces</Title>
-    <Description>Profile definitions for cross-sections in Structural Engineering design</Description>
+    <Title>Vivid Orange Taxonomy Standards</Title>
+    <Description>Difinition of Codes and Standards used in the AEC industry</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -27,7 +27,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="UnitsNet" Version="5.75.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,7 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
+    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>

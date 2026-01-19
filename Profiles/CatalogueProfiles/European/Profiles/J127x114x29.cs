@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class J127x114x29 : SingletonEuropeanBase<J127x114x29>, IITaperFlange
     {

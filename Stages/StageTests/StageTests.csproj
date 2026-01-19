@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Taxonomy.Serialization.csproj" />
-    <ProjectReference Include="..\IStages\VividOrange.Taxonomy.IStages.csproj" />
-    <ProjectReference Include="..\Stages\VividOrange.Taxonomy.Stages.csproj" />
+    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Serialization.csproj" />
+    <ProjectReference Include="..\IStages\VividOrange.IStages.csproj" />
+    <ProjectReference Include="..\Stages\VividOrange.Stages.csproj" />
   </ItemGroup>
 
 </Project>

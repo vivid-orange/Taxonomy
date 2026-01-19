@@ -157,7 +157,7 @@ namespace ProfileTests.Catalogue
         private void ICatalogueTest(ICatalogue prfl)
         {
             // Assert
-            Assert.Equal(VividOrange.Taxonomy.Profiles.Catalogue.EuropeanEN10365, prfl.Catalogue);
+            Assert.Equal(VividOrange.Profiles.Catalogue.EuropeanEN10365, prfl.Catalogue);
         }
 
         private void SurvivesRoundtripDeserializationTest<T>(T profile, List<string> expectedValues)

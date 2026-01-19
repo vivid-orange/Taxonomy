@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Profiles</RootNamespace>
+    <RootNamespace>VividOrange.Serialization</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Perimeter Profiles</Title>
-    <Description>Profile defined geometrically by a perimeter for cross-sections in Structural Engineering design</Description>
+    <Title>Vivid Orange Taxonomy Serialization Interfaces</Title>
+    <Description>(De)Serialization definition for all Vivid Orange Taxonomy libraries</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,7 +23,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="VividOrange.Geometry" Version="1.8.0" />
     <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -47,11 +46,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\IProfiles\VividOrange.Taxonomy.IProfiles.csproj" />
-    <ProjectReference Include="..\Profiles\VividOrange.Taxonomy.Profiles.csproj" />
   </ItemGroup>
 
 </Project>

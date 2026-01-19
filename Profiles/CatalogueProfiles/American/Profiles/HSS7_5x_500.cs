@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class HSS7_5x_500 : SingletonAmericanBase<HSS7_5x_500>, ICircularHollow
     {

@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Materials
+﻿namespace VividOrange.Materials
 {
     public interface IBiLinearMaterial : IAnalysisMaterial
     {

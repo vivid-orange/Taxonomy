@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VividOrange.Taxonomy.Loads.Cases
+namespace VividOrange.Loads.Cases
 {
     public class VariableCase : IVariableCase
     {

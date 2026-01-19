@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Standards.Eurocode
+﻿namespace VividOrange.Standards.Eurocode
 {
     internal static class En1996Utility
     {

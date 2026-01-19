@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using VividOrange.Taxonomy.Loads.Cases;
+using VividOrange.Loads.Cases;
 
-namespace VividOrange.Taxonomy.Loads.Combinations
+namespace VividOrange.Loads.Combinations
 {
     public static partial class ENCombinationFactory
     {

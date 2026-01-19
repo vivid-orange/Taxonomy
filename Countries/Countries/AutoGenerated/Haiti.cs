@@ -1,4 +1,4 @@
-namespace VividOrange.Taxonomy.Countries
+namespace VividOrange.Countries
 {
     public sealed class Haiti : SingletonCountryBase<Haiti>, ICountry
     {

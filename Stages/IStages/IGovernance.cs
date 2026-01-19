@@ -1,7 +1,7 @@
 ﻿
-using VividOrange.Taxonomy.Countries;
+using VividOrange.Countries;
 
-namespace VividOrange.Taxonomy.Stages
+namespace VividOrange.Stages
 {
     public interface IGovernance
     {

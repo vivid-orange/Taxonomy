@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using VividOrange.Geometry;
 
-namespace VividOrange.Taxonomy.Profiles
+namespace VividOrange.Profiles
 {
     public interface IPerimeter : IProfile
     {

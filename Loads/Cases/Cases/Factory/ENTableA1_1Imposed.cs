@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using VividOrange.Taxonomy.Loads.Cases.EN;
-using VividOrange.Taxonomy.Standards.Eurocode;
+using VividOrange.Loads.Cases.EN;
+using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Loads.Cases
+namespace VividOrange.Loads.Cases
 {
     internal class ENTableA1_1Imposed : ITableA1_1Imposed
     {

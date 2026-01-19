@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -23,15 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.Taxonomy.IMaterials.csproj" />
-    <ProjectReference Include="..\..\Materials\Materials\VividOrange.Taxonomy.Materials.csproj" />
-    <ProjectReference Include="..\..\Profiles\CatalogueProfiles\VividOrange.Taxonomy.Profiles.Catalogue.csproj" />
-    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.Taxonomy.IProfiles.csproj" />
-    <ProjectReference Include="..\..\Profiles\Profiles\VividOrange.Taxonomy.Profiles.csproj" />
-    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Taxonomy.Serialization.csproj" />
-    <ProjectReference Include="..\..\Standards\Standards\VividOrange.Taxonomy.Standards.csproj" />
-    <ProjectReference Include="..\ISections\VividOrange.Taxonomy.ISections.csproj" />
-    <ProjectReference Include="..\Sections\VividOrange.Taxonomy.Sections.csproj" />
+    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.IMaterials.csproj" />
+    <ProjectReference Include="..\..\Materials\Materials\VividOrange.Materials.csproj" />
+    <ProjectReference Include="..\..\Profiles\CatalogueProfiles\VividOrange.Profiles.Catalogue.csproj" />
+    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.IProfiles.csproj" />
+    <ProjectReference Include="..\..\Profiles\Profiles\VividOrange.Profiles.csproj" />
+    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Serialization.csproj" />
+    <ProjectReference Include="..\..\Standards\Standards\VividOrange.Standards.csproj" />
+    <ProjectReference Include="..\ISections\VividOrange.ISections.csproj" />
+    <ProjectReference Include="..\Sections\VividOrange.Sections.csproj" />
   </ItemGroup>
 
   <ItemGroup>

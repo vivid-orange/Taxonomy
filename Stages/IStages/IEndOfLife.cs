@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Stages
+﻿namespace VividOrange.Stages
 {
     public interface IEndOfLife : IStage { }
 }

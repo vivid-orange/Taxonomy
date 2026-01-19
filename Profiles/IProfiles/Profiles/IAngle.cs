@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Profiles
+﻿namespace VividOrange.Profiles
 {
     public interface IAngle : IProfile
     {

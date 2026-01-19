@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CatalogueProfiles\VividOrange.Taxonomy.Profiles.Catalogue.csproj" />
+    <ProjectReference Include="..\CatalogueProfiles\VividOrange.Profiles.Catalogue.csproj" />
   </ItemGroup>
 
 </Project>

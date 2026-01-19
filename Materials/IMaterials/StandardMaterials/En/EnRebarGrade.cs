@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
+﻿namespace VividOrange.Materials.StandardMaterials.En
 {
     public enum EnRebarGrade
     {

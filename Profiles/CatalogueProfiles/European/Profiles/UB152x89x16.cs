@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class UB152x89x16 : SingletonEuropeanBase<UB152x89x16>, IIParallelFlange
     {

@@ -1,8 +1,11 @@
+// Licensed to the .NET Foundation under one or more agreements.
+// The .NET Foundation licenses this file to you under the MIT license.
+
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using VividOrange.Taxonomy.Countries;
-using VividOrange.Taxonomy.Serialization;
+using VividOrange.Countries;
+using VividOrange.Serialization;
 
 namespace CountryTests
 {
@@ -61,7 +64,7 @@ namespace CountryTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.GetCustomAttribute(typeof(CompilerGeneratedAttribute), true) == null)

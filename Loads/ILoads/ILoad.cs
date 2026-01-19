@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Loads
+namespace VividOrange.Loads
 {
     public interface ILoad : ITaxonomySerializable
     {

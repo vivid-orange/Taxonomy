@@ -1,11 +1,14 @@
-﻿using System.Text;
+﻿// Licensed to the .NET Foundation under one or more agreements.
+// The .NET Foundation licenses this file to you under the MIT license.
+
+using System.Text;
 
 namespace CatalogueGenerator.Utilities
 {
     public struct UtilityClassProperties
     {
         public string NameSpace;
-        public string AccessModifier = "public partial class Utility";
+        public string AccessModifier = "public partial class CatalogueFactory";
         public string Catalogue;
         public List<string> Values;
 
@@ -29,7 +32,7 @@ namespace CatalogueGenerator.Utilities
 {{
     {AccessModifier}
     {{
-        public static ICatalogue GetCatalogue({Catalogue} {Catalogue.ToLower()})
+        public static ICatalogue Create{Catalogue}({Catalogue} {Catalogue.ToLower()})
         {{
             return {Catalogue.ToLower()} switch
             {{");
@@ -43,7 +46,7 @@ namespace CatalogueGenerator.Utilities
         }}
     }}
 }}");
-            var file = new StreamWriter($"{filePath}/{Catalogue}Utility.cs");
+            var file = new StreamWriter($"{filePath}/{Catalogue}Factory.cs");
             file.Write(sb);
             file.Close();
         }

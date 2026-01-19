@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Sections.Exceptions
+﻿namespace VividOrange.Sections.Exceptions
 {
     public class InvalidMaterialTypeException : Exception
     {

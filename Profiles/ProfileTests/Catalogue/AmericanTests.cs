@@ -1,3 +1,6 @@
+// Licensed to the .NET Foundation under one or more agreements.
+// The .NET Foundation licenses this file to you under the MIT license.
+
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -32,7 +35,7 @@ namespace ProfileTests.Catalogue
         [MemberData(nameof(AmericanEnumValues))]
         public void TestAmericanCatalogue(American type)
         {
-            ICatalogue profile = VividOrange.Taxonomy.Profiles.CatalogueFactory.CreateAmerican(type);
+            ICatalogue profile = VividOrange.Profiles.CatalogueFactory.CreateAmerican(type);
             Assert.NotNull(profile);
             List<string> expectedValues = CsvValues[profile.Label];
             ProfileValuesTest(profile, expectedValues);
@@ -283,7 +286,7 @@ namespace ProfileTests.Catalogue
         private void ICatalogueTest(ICatalogue prfl)
         {
             // Assert
-            Assert.Equal(VividOrange.Taxonomy.Profiles.Catalogue.AmericanAISC, prfl.Catalogue);
+            Assert.Equal(VividOrange.Profiles.Catalogue.AmericanAISC, prfl.Catalogue);
         }
 
         private void SurvivesRoundtripDeserializationTest<T>(T profile, List<string> expectedValues)

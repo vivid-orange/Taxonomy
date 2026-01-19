@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Stages.Germany
+﻿namespace VividOrange.Stages.Germany
 {
     public class LP5 : IDetailedDesign
     {

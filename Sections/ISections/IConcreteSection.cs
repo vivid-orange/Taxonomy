@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using VividOrange.Taxonomy.Sections.Reinforcement;
+using VividOrange.Sections.Reinforcement;
 
-namespace VividOrange.Taxonomy.Sections
+namespace VividOrange.Sections
 {
     public interface IConcreteSection : ISection
     {

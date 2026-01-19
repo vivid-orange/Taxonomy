@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Stages.Denmark
+﻿namespace VividOrange.Stages.Denmark
 {
     public class Myndighedsprojekt : IDetailedDesign
     {

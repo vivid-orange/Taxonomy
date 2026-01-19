@@ -1,9 +1,9 @@
-﻿using VividOrange.Taxonomy.Stages;
-using VividOrange.Taxonomy.Stages.Denmark;
-using VividOrange.Taxonomy.Stages.Germany;
-using VividOrange.Taxonomy.Stages.Italy;
-using VividOrange.Taxonomy.Stages.UK;
-using VividOrange.Taxonomy.Stages.UK.RIBA2007;
+﻿using VividOrange.Stages;
+using VividOrange.Stages.Denmark;
+using VividOrange.Stages.Germany;
+using VividOrange.Stages.Italy;
+using VividOrange.Stages.UK;
+using VividOrange.Stages.UK.RIBA2007;
 
 namespace StageTests
 {

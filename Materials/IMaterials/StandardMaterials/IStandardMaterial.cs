@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Standards;
+﻿using VividOrange.Standards;
 
-namespace VividOrange.Taxonomy.Materials.StandardMaterials
+namespace VividOrange.Materials.StandardMaterials
 {
     public interface IStandardMaterial : IMaterial
     {

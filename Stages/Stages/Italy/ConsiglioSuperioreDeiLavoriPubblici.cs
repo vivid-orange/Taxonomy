@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Countries;
+﻿using VividOrange.Countries;
 
-namespace VividOrange.Taxonomy.Stages.Italy
+namespace VividOrange.Stages.Italy
 {
     public class ConsiglioSuperioreDeiLavoriPubblici : IGovernance
     {

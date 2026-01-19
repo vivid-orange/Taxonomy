@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class ST10x37_5 : SingletonAmericanBase<ST10x37_5>, ICutTeeTaperFlange
     {

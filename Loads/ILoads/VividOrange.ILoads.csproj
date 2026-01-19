@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Materials</RootNamespace>
+    <RootNamespace>VividOrange.Loads</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Material Interfaces</Title>
-    <Description>Material definitions for Structural Engineering design,analysis and specifications</Description>
+    <Title>Vivid Orange Taxonomy Load Interfaces</Title>
+    <Description>Load definitions for Structural Engineering application</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -28,11 +28,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="UnitsNet" Version="5.75.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
-    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -52,6 +47,10 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 using System.Linq;
 using VividOrange.Geometry;
 
-namespace VividOrange.Taxonomy.Profiles
+namespace VividOrange.Profiles
 {
     public class Perimeter : IPerimeter
     {

@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Countries;
+﻿using VividOrange.Countries;
 
-namespace VividOrange.Taxonomy.Stages
+namespace VividOrange.Stages
 {
     public class International : IGovernance
     {

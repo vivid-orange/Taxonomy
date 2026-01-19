@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Loads.Combinations.EN
+﻿namespace VividOrange.Loads.Combinations.EN
 {
     public struct TableA1_2Properties
     {

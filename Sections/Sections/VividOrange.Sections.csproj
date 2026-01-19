@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Countries</RootNamespace>
+    <RootNamespace>VividOrange.Sections</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Countries</Title>
-    <Description>A small library defining the names of countries on planet earth.</Description>
+    <Title>Vivid Orange Taxonomy Sections</Title>
+    <Description>Cross-sections (Material(s) and Profile(s)) in Structural Engineering design</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,10 +23,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="VividOrange.Geometry" Version="1.8.0" />
     <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Profiles\Perimeter\VividOrange.Profiles.Perimeter.csproj" />
+    <ProjectReference Include="..\ISections\VividOrange.ISections.csproj" />
+    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.IMaterials.csproj" />
+    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.IProfiles.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,7 +53,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>SectionTests</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 
 </Project>

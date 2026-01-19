@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using VividOrange.Taxonomy.Loads.Cases.EN;
-using VividOrange.Taxonomy.Standards.Eurocode;
+using VividOrange.Loads.Cases.EN;
+using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Loads.Cases
+namespace VividOrange.Loads.Cases
 {
     public static partial class ENLoadCaseFactory
     {

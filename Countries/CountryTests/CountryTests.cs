@@ -1,4 +1,4 @@
-using VividOrange.Taxonomy.Countries;
+using VividOrange.Countries;
 
 namespace CountryTests
 {

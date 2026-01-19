@@ -1,7 +1,7 @@
-﻿using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Profiles;
+﻿using VividOrange.Materials;
+using VividOrange.Profiles;
 
-namespace VividOrange.Taxonomy.Sections
+namespace VividOrange.Sections
 {
     public class Section : ISection
     {

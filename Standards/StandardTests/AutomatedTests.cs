@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using VividOrange.Taxonomy.Serialization;
-using VividOrange.Taxonomy.Standards;
+using VividOrange.Serialization;
+using VividOrange.Standards;
 
 namespace StandardTests
 {
@@ -77,7 +77,7 @@ namespace StandardTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)

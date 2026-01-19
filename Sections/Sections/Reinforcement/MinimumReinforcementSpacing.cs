@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public class MinimumReinforcementSpacing : IMinimumReinforcementSpacing
     {

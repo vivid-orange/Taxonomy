@@ -1,8 +1,8 @@
-namespace VividOrange.Taxonomy.Profiles
+namespace VividOrange.Profiles
 {
     public partial class CatalogueFactory
     {
-        public static IAmericanCatalogue CreateAmerican(American american)
+        public static ICatalogue CreateAmerican(American american)
         {
             return american switch
             {

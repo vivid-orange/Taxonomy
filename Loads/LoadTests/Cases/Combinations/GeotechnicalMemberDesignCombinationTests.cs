@@ -1,5 +1,5 @@
 ﻿using LoadCaseTests;
-using VividOrange.Taxonomy.Loads.Combinations;
+using VividOrange.Loads.Combinations;
 
 namespace CombinationTests
 {

@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Countries;
+﻿using VividOrange.Countries;
 
-namespace VividOrange.Taxonomy.Stages.UK
+namespace VividOrange.Stages.UK
 {
     public class RIBA : IGovernance
     {

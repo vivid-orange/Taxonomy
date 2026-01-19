@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Countries;
+﻿using VividOrange.Countries;
 
-namespace VividOrange.Taxonomy.Stages.Germany
+namespace VividOrange.Stages.Germany
 {
     public class HOAI : IGovernance
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Profiles;
-using VividOrange.Taxonomy.Serialization;
+using VividOrange.Profiles;
+using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public interface IReinforcementLayer : ITaxonomySerializable
     {

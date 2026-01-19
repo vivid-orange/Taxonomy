@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using VividOrange.Taxonomy.Loads.Combinations.EN;
-using VividOrange.Taxonomy.Standards.Eurocode;
+using VividOrange.Loads.Combinations.EN;
+using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Loads.Combinations
+namespace VividOrange.Loads.Combinations
 {
     internal class ENTableA1_2C : ITableA1_2
     {
