@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class IPEO300 : SingletonEuropeanBase<IPEO300>, IIParallelFlange
     {

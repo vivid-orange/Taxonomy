@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Stages</RootNamespace>
+    <RootNamespace>VividOrange.Standards</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Stages</Title>
-    <Description>Design Stages applied in the AEC industry, like RIBA Stage 2 - Concept Design</Description>
+    <Title>Vivid Orange Taxonomy Standards</Title>
+    <Description>Difinition of Codes and Standards used in the AEC industry</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -30,11 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Countries\Countries\VividOrange.Taxonomy.Countries.csproj" />
-    <ProjectReference Include="..\IStages\VividOrange.Taxonomy.IStages.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -43,10 +38,18 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <None Include="..\..\Licenses\UnitsNet">
+      <Pack>True</Pack>
+      <PackagePath>\Licenses\</PackagePath>
+    </None>
     <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>

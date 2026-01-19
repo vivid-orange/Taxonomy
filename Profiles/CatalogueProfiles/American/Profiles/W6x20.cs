@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class W6x20 : SingletonAmericanBase<W6x20>, IIParallelFlange
     {

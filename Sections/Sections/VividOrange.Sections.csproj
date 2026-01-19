@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Materials</RootNamespace>
+    <RootNamespace>VividOrange.Sections</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Material Interfaces</Title>
-    <Description>Material definitions for Structural Engineering design,analysis and specifications</Description>
+    <Title>Vivid Orange Taxonomy Sections</Title>
+    <Description>Cross-sections (Material(s) and Profile(s)) in Structural Engineering design</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,16 +23,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="VividOrange.Geometry" Version="1.8.0" />
     <PackageReference Include="MinVer" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="UnitsNet" Version="5.75.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
-    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
+    <ProjectReference Include="..\..\Profiles\Perimeter\VividOrange.Profiles.Perimeter.csproj" />
+    <ProjectReference Include="..\ISections\VividOrange.ISections.csproj" />
+    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.IMaterials.csproj" />
+    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.IProfiles.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,14 +46,16 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\Licenses\UnitsNet">
-      <Pack>True</Pack>
-      <PackagePath>\Licenses\</PackagePath>
-    </None>
     <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>SectionTests</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 
 </Project>

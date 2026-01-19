@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Loads.Cases.EN
+namespace VividOrange.Loads.Cases.EN
 {
     public interface ITableA1_1Snow
     {

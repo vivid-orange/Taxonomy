@@ -1,7 +1,7 @@
-﻿using VividOrange.Taxonomy.Materials.StandardMaterials;
-using VividOrange.Taxonomy.Materials.StandardMaterials.En;
+﻿using VividOrange.Materials.StandardMaterials;
+using VividOrange.Materials.StandardMaterials.En;
 
-namespace VividOrange.Taxonomy.Materials
+namespace VividOrange.Materials
 {
     public static partial class AnalysisMaterialFactory
     {

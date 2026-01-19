@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class HSS10x8x_313 : SingletonAmericanBase<HSS10x8x_313>, IRoundedRectangularHollow
     {

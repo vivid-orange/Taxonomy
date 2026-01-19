@@ -1,7 +1,7 @@
-﻿using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Materials;
+using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public interface IRebar : ITaxonomySerializable
     {

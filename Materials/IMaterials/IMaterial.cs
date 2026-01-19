@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Materials
+namespace VividOrange.Materials
 {
     public interface IMaterial : ITaxonomySerializable
     {

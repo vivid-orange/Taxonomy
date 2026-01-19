@@ -1,7 +1,7 @@
-﻿using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Sections.Exceptions;
+﻿using VividOrange.Materials;
+using VividOrange.Sections.Exceptions;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public class Rebar : IRebar
     {

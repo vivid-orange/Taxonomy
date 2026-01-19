@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Stages.UK.RIBA2007
+﻿namespace VividOrange.Stages.UK.RIBA2007
 {
     public class RIBAStageH : IDetailedDesign
     {

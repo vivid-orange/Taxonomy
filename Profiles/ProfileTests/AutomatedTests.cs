@@ -75,7 +75,7 @@ namespace ProfileTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)

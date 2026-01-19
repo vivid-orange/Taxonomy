@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public interface IMinimumReinforcementSpacing : ITaxonomySerializable
     {

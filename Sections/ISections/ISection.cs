@@ -1,8 +1,8 @@
-﻿using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Profiles;
-using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Materials;
+using VividOrange.Profiles;
+using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Sections
+namespace VividOrange.Sections
 {
     public interface ISection : ITaxonomySerializable
     {

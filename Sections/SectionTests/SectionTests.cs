@@ -1,5 +1,5 @@
-using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Serialization;
+using VividOrange.Materials;
+using VividOrange.Serialization;
 
 namespace SectionTests
 {

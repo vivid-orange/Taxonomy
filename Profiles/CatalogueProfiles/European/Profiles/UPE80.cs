@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class UPE80 : SingletonEuropeanBase<UPE80>, IChannelParallelFlange
     {

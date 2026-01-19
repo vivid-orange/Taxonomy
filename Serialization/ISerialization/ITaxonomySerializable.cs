@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Serialization
+﻿namespace VividOrange.Serialization
 {
     public interface ITaxonomySerializable { }
 }

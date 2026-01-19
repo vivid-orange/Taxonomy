@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace VividOrange.Taxonomy.Profiles
+namespace VividOrange.Profiles
 {
     internal static class Utility
     {

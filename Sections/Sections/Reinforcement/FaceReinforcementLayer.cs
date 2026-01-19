@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Profiles;
-using VividOrange.Taxonomy.Sections.Exceptions;
+using VividOrange.Profiles;
+using VividOrange.Sections.Exceptions;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public class FaceReinforcementLayer : IFaceReinforcementLayer
     {

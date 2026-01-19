@@ -1,4 +1,4 @@
-namespace VividOrange.Taxonomy.Countries
+namespace VividOrange.Countries
 {
     public sealed class Cambodia : SingletonCountryBase<Cambodia>, ICountry
     {

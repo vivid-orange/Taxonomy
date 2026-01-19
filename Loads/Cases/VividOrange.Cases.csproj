@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Standards</RootNamespace>
+    <RootNamespace>VividOrange.Loads</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Standards</Title>
-    <Description>Codes and Standards used in the AEC industry, like Eurocode</Description>
+    <Title>Vivid Orange Taxonomy Load Cases and Combinations</Title>
+    <Description>Load Cases and Combinations for Structural Engineering application</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -27,11 +27,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <ProjectReference Include="..\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,6 +46,11 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.IStandards.csproj" />
+    <ProjectReference Include="..\ICases\VividOrange.ICases.csproj" />
   </ItemGroup>
 
 </Project>

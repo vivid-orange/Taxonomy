@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Stages
+namespace VividOrange.Stages
 {
     public interface IStage : ITaxonomySerializable
     {

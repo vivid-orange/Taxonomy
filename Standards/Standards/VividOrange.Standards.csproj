@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Serialization</RootNamespace>
+    <RootNamespace>VividOrange.Standards</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Serialization Interfaces</Title>
-    <Description>(De)Serialization definition for all Vivid Orange Taxonomy libraries</Description>
+    <Title>Vivid Orange Taxonomy Standards</Title>
+    <Description>Codes and Standards used in the AEC industry, like Eurocode</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -27,6 +27,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\IStandards\VividOrange.IStandards.csproj" />
   </ItemGroup>
 
   <ItemGroup>

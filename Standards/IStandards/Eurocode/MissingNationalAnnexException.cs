@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VividOrange.Taxonomy.Standards.Eurocode
+namespace VividOrange.Standards.Eurocode
 {
     public class MissingNationalAnnexException : Exception
     {

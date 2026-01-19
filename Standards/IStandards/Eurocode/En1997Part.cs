@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace VividOrange.Taxonomy.Standards.Eurocode
+namespace VividOrange.Standards.Eurocode
 {
     public enum En1997Part
     {

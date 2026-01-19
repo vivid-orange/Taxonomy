@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Taxonomy.Serialization.csproj" />
-    <ProjectReference Include="..\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
-    <ProjectReference Include="..\Standards\VividOrange.Taxonomy.Standards.csproj" />
+    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Serialization.csproj" />
+    <ProjectReference Include="..\IStandards\VividOrange.IStandards.csproj" />
+    <ProjectReference Include="..\Standards\VividOrange.Standards.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 ﻿using VividOrange.Geometry;
-using Utility = VividOrange.Taxonomy.Sections.Reinforcement.Utility;
+using Utility = VividOrange.Sections.Reinforcement.Utility;
 
 namespace SectionTests.ReinforcementTests
 {

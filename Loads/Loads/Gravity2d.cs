@@ -1,4 +1,4 @@
-namespace VividOrange.Taxonomy.Loads
+namespace VividOrange.Loads
 {
     public class Gravity2d : IGravity2d
     {

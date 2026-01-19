@@ -1,6 +1,6 @@
 ﻿using VividOrange.Geometry;
-using VividOrange.Taxonomy.Sections.Exceptions;
-using Angle = VividOrange.Taxonomy.Profiles.Angle;
+using VividOrange.Sections.Exceptions;
+using Angle = VividOrange.Profiles.Angle;
 
 namespace SectionTests.ReinforcementTests
 {

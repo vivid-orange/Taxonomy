@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Profiles
+﻿namespace VividOrange.Profiles
 {
     public class I : II
     {

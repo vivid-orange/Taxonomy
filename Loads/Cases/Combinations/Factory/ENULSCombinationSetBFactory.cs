@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using VividOrange.Taxonomy.Loads.Cases;
-using VividOrange.Taxonomy.Loads.Combinations.EN;
-using VividOrange.Taxonomy.Standards.Eurocode;
+using VividOrange.Loads.Cases;
+using VividOrange.Loads.Combinations.EN;
+using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Loads.Combinations
+namespace VividOrange.Loads.Combinations
 {
     public static partial class ENCombinationFactory
     {

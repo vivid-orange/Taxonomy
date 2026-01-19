@@ -1,7 +1,7 @@
-﻿using VividOrange.Taxonomy.Standards;
-using VividOrange.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Standards;
+using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Materials.StandardMaterials.En
+namespace VividOrange.Materials.StandardMaterials.En
 {
     public class EnRebarMaterial : IEnRebarMaterial
     {

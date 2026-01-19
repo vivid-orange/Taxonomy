@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Stages.Italy
+﻿namespace VividOrange.Stages.Italy
 {
     public class DL : IConstruction
     {

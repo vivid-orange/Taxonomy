@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Sections
+﻿namespace VividOrange.Sections
 {
     public enum SectionFace
     {

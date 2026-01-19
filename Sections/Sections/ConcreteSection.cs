@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Materials.StandardMaterials.En;
-using VividOrange.Taxonomy.Profiles;
-using VividOrange.Taxonomy.Sections.Exceptions;
-using VividOrange.Taxonomy.Sections.Reinforcement;
+using VividOrange.Materials;
+using VividOrange.Materials.StandardMaterials.En;
+using VividOrange.Profiles;
+using VividOrange.Sections.Exceptions;
+using VividOrange.Sections.Reinforcement;
 
-namespace VividOrange.Taxonomy.Sections
+namespace VividOrange.Sections
 {
     public class ConcreteSection : Section, IConcreteSection
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace VividOrange.Taxonomy.Standards
+namespace VividOrange.Standards
 {
     public enum StandardBody
     {

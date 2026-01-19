@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Countries
+namespace VividOrange.Countries
 {
     public interface ICountry : ITaxonomySerializable
     {

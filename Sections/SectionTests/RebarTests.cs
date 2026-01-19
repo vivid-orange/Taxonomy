@@ -1,4 +1,4 @@
-using VividOrange.Taxonomy.Sections.Exceptions;
+using VividOrange.Sections.Exceptions;
 
 namespace SectionTests
 {

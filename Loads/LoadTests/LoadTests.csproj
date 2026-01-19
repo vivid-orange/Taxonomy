@@ -23,10 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Taxonomy.Serialization.csproj" />
-    <ProjectReference Include="..\Cases\VividOrange.Taxonomy.Cases.csproj" />
-    <ProjectReference Include="..\ICases\VividOrange.Taxonomy.ICases.csproj" />
-    <ProjectReference Include="..\Loads\VividOrange.Taxonomy.Loads.csproj" />
+    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Serialization.csproj" />
+    <ProjectReference Include="..\Cases\VividOrange.Cases.csproj" />
+    <ProjectReference Include="..\ICases\VividOrange.ICases.csproj" />
+    <ProjectReference Include="..\Loads\VividOrange.Loads.csproj" />
   </ItemGroup>
 
   <ItemGroup>

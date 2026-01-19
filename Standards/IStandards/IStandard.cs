@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Standards
+namespace VividOrange.Standards
 {
     public interface IStandard : ITaxonomySerializable
     {

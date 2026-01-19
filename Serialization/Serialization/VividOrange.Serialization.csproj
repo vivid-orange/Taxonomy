@@ -9,7 +9,7 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Serialization</RootNamespace>
+    <RootNamespace>VividOrange.Serialization</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -51,7 +51,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
+    <ProjectReference Include="..\ISerialization\VividOrange.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>

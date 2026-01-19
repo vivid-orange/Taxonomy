@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class CH229x76x26 : SingletonEuropeanBase<CH229x76x26>, IChannelTaperFlange
     {

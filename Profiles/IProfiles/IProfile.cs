@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
-namespace VividOrange.Taxonomy.Profiles
+namespace VividOrange.Profiles
 {
     public interface IProfile : ITaxonomySerializable
     {

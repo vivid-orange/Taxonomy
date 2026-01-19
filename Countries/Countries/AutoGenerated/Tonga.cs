@@ -1,4 +1,4 @@
-namespace VividOrange.Taxonomy.Countries
+namespace VividOrange.Countries
 {
     public sealed class Tonga : SingletonCountryBase<Tonga>, ICountry
     {

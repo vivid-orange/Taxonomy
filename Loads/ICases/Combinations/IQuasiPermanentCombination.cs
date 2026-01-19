@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Loads.Combinations
+﻿namespace VividOrange.Loads.Combinations
 {
     public interface IQuasiPermanentCombination : IServiceabilityLimitState { }
 }

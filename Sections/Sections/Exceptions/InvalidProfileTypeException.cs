@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Profiles;
+﻿using VividOrange.Profiles;
 
-namespace VividOrange.Taxonomy.Sections.Exceptions
+namespace VividOrange.Sections.Exceptions
 {
     public class InvalidProfileTypeException : Exception
     {

@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Standards.Eurocode;
+﻿using VividOrange.Standards.Eurocode;
 
-namespace VividOrange.Taxonomy.Loads.Combinations.EN
+namespace VividOrange.Loads.Combinations.EN
 {
     public interface ITableA1_2
     {

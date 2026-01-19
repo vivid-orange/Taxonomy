@@ -21,11 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Taxonomy.Serialization.csproj" />
-    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
-    <ProjectReference Include="..\..\Standards\Standards\VividOrange.Taxonomy.Standards.csproj" />
-    <ProjectReference Include="..\IMaterials\VividOrange.Taxonomy.IMaterials.csproj" />
-    <ProjectReference Include="..\Materials\VividOrange.Taxonomy.Materials.csproj" />
+    <ProjectReference Include="..\..\Serialization\Serialization\VividOrange.Serialization.csproj" />
+    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.IStandards.csproj" />
+    <ProjectReference Include="..\..\Standards\Standards\VividOrange.Standards.csproj" />
+    <ProjectReference Include="..\IMaterials\VividOrange.IMaterials.csproj" />
+    <ProjectReference Include="..\Materials\VividOrange.Materials.csproj" />
   </ItemGroup>
 
 </Project>

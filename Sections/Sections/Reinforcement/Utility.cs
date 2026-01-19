@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using VividOrange.Geometry;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     internal static class Utility
     {

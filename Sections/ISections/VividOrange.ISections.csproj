@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Standards</RootNamespace>
+    <RootNamespace>VividOrange.Sections</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Standards</Title>
-    <Description>Difinition of Codes and Standards used in the AEC industry</Description>
+    <Title>Vivid Orange Taxonomy Section Interfaces</Title>
+    <Description>Cross-section (Material(s) and Profile(s)) definitions in Structural Engineering design</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,6 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="VividOrange.IGeometry" Version="1.8.0" />
     <PackageReference Include="MinVer" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -38,10 +39,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\Licenses\UnitsNet">
-      <Pack>True</Pack>
-      <PackagePath>\Licenses\</PackagePath>
-    </None>
     <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -49,7 +46,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
+    <ProjectReference Include="..\..\Materials\IMaterials\VividOrange.IMaterials.csproj" />
+    <ProjectReference Include="..\..\Profiles\IProfiles\VividOrange.IProfiles.csproj" />
   </ItemGroup>
 
 </Project>

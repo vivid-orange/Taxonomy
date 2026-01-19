@@ -1,6 +1,6 @@
-﻿using VividOrange.Taxonomy.Materials;
+﻿using VividOrange.Materials;
 
-namespace VividOrange.Taxonomy.Sections.Reinforcement
+namespace VividOrange.Sections.Reinforcement
 {
     public class Link : Rebar, ILink
     {

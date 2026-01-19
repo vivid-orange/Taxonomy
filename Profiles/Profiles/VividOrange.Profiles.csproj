@@ -1,20 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <MinVerMinimumMajorMinor>0.2</MinVerMinimumMajorMinor>
     <MinVerDefaultPreReleaseIdentifiers>preview</MinVerDefaultPreReleaseIdentifiers>
   </PropertyGroup>
-
+  
   <PropertyGroup>
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
-    <LangVersion>10.0</LangVersion>
+	  <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Countries</RootNamespace>
+    <RootNamespace>VividOrange.Profiles</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Countries</Title>
-    <Description>A small library defining the names of countries on planet earth.</Description>
+    <Title>Vivid Orange Taxonomy Profiles</Title>
+    <Description>Profiles for cross-sections in Structural Engineering design</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -30,6 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IProfiles\VividOrange.IProfiles.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -38,14 +42,14 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <None Include="..\..\Licenses\UnitsNet">
+      <Pack>True</Pack>
+      <PackagePath>\Licenses\</PackagePath>
+    </None>
     <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
   </ItemGroup>
 
 </Project>

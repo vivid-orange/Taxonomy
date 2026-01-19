@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using VividOrange.Taxonomy.Serialization;
-using VividOrange.Taxonomy.Stages;
-using VividOrange.Taxonomy.Stages.UK;
+using VividOrange.Serialization;
+using VividOrange.Stages;
+using VividOrange.Stages.UK;
 
 namespace StageTests
 {
@@ -65,7 +65,7 @@ namespace StageTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.GetCustomAttribute(typeof(CompilerGeneratedAttribute), true) == null)

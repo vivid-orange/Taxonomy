@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class PFC125x65x15 : SingletonEuropeanBase<PFC125x65x15>, IChannelParallelFlange
     {

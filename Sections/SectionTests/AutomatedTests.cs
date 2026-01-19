@@ -2,9 +2,9 @@ using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Sections.Exceptions;
-using VividOrange.Taxonomy.Serialization;
+using VividOrange.Materials;
+using VividOrange.Sections.Exceptions;
+using VividOrange.Serialization;
 
 namespace SectionTests
 {
@@ -78,7 +78,7 @@ namespace SectionTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("VividOrange.Taxonomy")
+                    if (type.Namespace.StartsWith("VividOrange")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)

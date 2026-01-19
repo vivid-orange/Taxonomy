@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using VividOrange.Taxonomy.Loads.Cases;
+using VividOrange.Loads.Cases;
 
-namespace VividOrange.Taxonomy.Loads.Combinations
+namespace VividOrange.Loads.Combinations
 {
     public class AccidentalCombination : LoadCombination, IAccidentalCombination
     {

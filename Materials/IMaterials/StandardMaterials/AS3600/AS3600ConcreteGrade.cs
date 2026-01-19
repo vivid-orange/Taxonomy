@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Materials.StandardMaterials.AS3600
+﻿namespace VividOrange.Materials.StandardMaterials.AS3600
 {
     public enum AS3600ConcreteGrade
     {

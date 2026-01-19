@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class Pipe10SCH140 : SingletonAmericanBase<Pipe10SCH140>, ICircularHollow
     {

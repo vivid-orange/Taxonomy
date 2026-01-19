@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Sections.Reinforcement
+﻿namespace VividOrange.Sections.Reinforcement
 {
     public interface IReinforcementLayoutByCount : IReinforcementLayout
     {

@@ -1,4 +1,7 @@
-namespace VividOrange.Taxonomy.Profiles
+using UnitsNet;
+using UnitsNet.Units;
+
+namespace VividOrange.Profiles
 {
     public sealed class DoubleL7x4x3over8SLBB : SingletonAmericanBase<DoubleL7x4x3over8SLBB>, IDoubleAngle
     {

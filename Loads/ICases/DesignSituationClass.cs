@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VividOrange.Taxonomy.Loads
+namespace VividOrange.Loads
 {
     [Flags]
     public enum DesignSituationClass

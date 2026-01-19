@@ -1,4 +1,4 @@
-﻿namespace VividOrange.Taxonomy.Profiles.PerimeterFactory
+﻿namespace VividOrange.Profiles.PerimeterFactory
 {
     public static partial class PerimeterFactory
     {

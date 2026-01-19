@@ -1,4 +1,4 @@
-namespace VividOrange.Taxonomy.Loads
+namespace VividOrange.Loads
 {
     public interface ILineForce : ILineForce2d
     {

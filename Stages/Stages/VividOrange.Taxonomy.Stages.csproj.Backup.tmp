@@ -9,12 +9,12 @@
     <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>10.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>VividOrange.Taxonomy.Loads</RootNamespace>
+    <RootNamespace>VividOrange.Stages</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Vivid Orange Taxonomy Load Case Interfaces</Title>
-    <Description>Load Case and Combination definitions for Structural Engineering application</Description>
+    <Title>Vivid Orange Taxonomy Stages</Title>
+    <Description>Design Stages applied in the AEC industry, like RIBA Stage 2 - Concept Design</Description>
     <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,10 +23,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MinVer" Version="7.0.0">
+    <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Countries\Countries\VividOrange.Countries.csproj" />
+    <ProjectReference Include="..\IStages\VividOrange.IStages.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,20 +43,10 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\Licenses\UnitsNet">
-      <Pack>True</Pack>
-      <PackagePath>\Licenses\</PackagePath>
-    </None>
     <None Include="..\..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Serialization\ISerialization\VividOrange.Taxonomy.ISerialization.csproj" />
-    <ProjectReference Include="..\..\Standards\IStandards\VividOrange.Taxonomy.IStandards.csproj" />
-    <ProjectReference Include="..\ILoads\VividOrange.Taxonomy.ILoads.csproj" />
   </ItemGroup>
 
 </Project>
